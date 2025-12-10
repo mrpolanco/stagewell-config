@@ -1,0 +1,7 @@
+{
+  "smart_notifications_enabled": true,
+  "advanced_coaching_analytics": false,
+  "ai_insights_enabled": false,
+  "background_processing_enabled": true,
+  "cloudkit_sync_enabled": true
+}
