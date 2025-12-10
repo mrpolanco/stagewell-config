@@ -1,7 +1,60 @@
 {
-  "smart_notifications_enabled": true,
-  "advanced_coaching_analytics": false,
-  "ai_insights_enabled": false,
-  "background_processing_enabled": true,
-  "cloudkit_sync_enabled": true
+  "feature_flags": {
+    "smart_notifications_enabled": true,
+    "background_processing_enabled": true,
+    "cloudkit_sync_enabled": true,
+    "advanced_coaching_analytics": false,
+    "ai_insights_enabled": false,
+    "behavioral_prediction_engine": false,
+    "memory_optimization_enabled": false,
+    "ml_features_enabled": false,
+    "async_image_loading": true,
+    "data_prefetching_enabled": false,
+    "cache_optimization_enabled": true
+  },
+  "app_status": {
+    "maintenance_mode": false,
+    "maintenance_message": "We're performing scheduled maintenance. Back soon!",
+    "force_update_required": false,
+    "force_update_message": "Please update to the latest version for the best experience.",
+    "minimum_version": "1.0.0"
+  },
+  "messages": {
+    "announcement_banner": ""
+  },
+  "config": {
+    "daily_notification_limit": 5,
+    "coach_response_delay_ms": 500,
+    "max_journal_entries_free": 100,
+    "xp_multiplier": 1,
+    "ai_model": "default"
+  },
+  "experiments": {
+    "onboarding_flow": {
+      "enabled": false,
+      "variants": [
+        "control",
+        "short",
+        "gamified"
+      ],
+      "distribution": [
+        34,
+        33,
+        33
+      ]
+    },
+    "home_layout": {
+      "enabled": false,
+      "variants": [
+        "ring_focus",
+        "list_view",
+        "cards"
+      ],
+      "distribution": [
+        50,
+        25,
+        25
+      ]
+    }
+  }
 }
