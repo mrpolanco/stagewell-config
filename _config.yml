@@ -1,0 +1,17 @@
+# GitHub Pages Configuration
+# This file tells Jekyll to skip processing and serve files as-is
+
+# Disable Jekyll processing
+plugins: []
+
+# Exclude unnecessary files from processing
+exclude:
+  - README.md
+  - LICENSE
+  - config/
+  - .git
+  - .gitignore
+
+# Set the base URL (adjust if using a custom domain)
+baseurl: ""
+url: ""
