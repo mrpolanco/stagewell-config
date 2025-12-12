@@ -1,0 +1,36 @@
+name: Update Challenge Stats
+
+on:
+    schedule:
+      # Run daily at 2 AM UTC
+      - cron: '0 2 * * *'
+    workflow_dispatch: # Allow manual trigger
+
+jobs:
+    update-stats:
+      runs-on: ubuntu-latest
+
+      steps:
+        - uses: actions/checkout@v4
+
+        - name: Set up Python
+          uses: actions/setup-python@v5
+          with:
+            python-version: '3.11'
+
+        - name: Install dependencies
+          run: pip install requests
+
+        - name: Query PostHog and update stats
+          env:
+            POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
+            POSTHOG_PROJECT_ID: ${{ secrets.POSTHOG_PROJECT_ID }}
+          run: python scripts/update_stats.py
+
+        - name: Commit and push if changed
+          run: |
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add config/stats.json
+            git diff --staged --quiet || git commit -m "Update challenge stats [automated]"
+            git push
