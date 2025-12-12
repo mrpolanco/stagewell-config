@@ -85,6 +85,18 @@
       "average_days_to_complete": 3
     }
   ],
-  "path_stats": [],
+  "path_stats": null,
+  "tool_stats": null,
+  "tool_category_stats": null,
+  "stage_stats": null,
+  "community_stats": null,
+  "effectiveness_stats": null,
+  "thresholds": {
+    "min_sessions_for_tool_stats": 50,
+    "min_users_for_tool_stats": 10,
+    "min_users_for_stage_stats": 20,
+    "min_daily_users_for_community": 10,
+    "min_completions_for_challenge": 5
+  },
   "last_updated": "2025-12-12T20:11:20Z"
 }
