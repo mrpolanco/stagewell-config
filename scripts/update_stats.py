@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-"""
-Fetches challenge analytics from PostHog and updates stats.json
-"""
+#Fetches challenge analytics from PostHog and updates stats.json
 
 import os
 import json
