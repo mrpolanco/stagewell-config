@@ -1,0 +1,49 @@
+{
+  "challenge_stats": [
+    {
+      "challenge_id": "7day_movement",
+      "completion_rate": 0.80,
+      "total_starts": 1420,
+      "total_completions": 1136,
+      "average_days_to_complete": 8
+    },
+    {
+      "challenge_id": "30_morning_walks",
+      "completion_rate": 0.45,
+      "total_starts": 890,
+      "total_completions": 401,
+      "average_days_to_complete": 35
+    },
+    {
+      "challenge_id": "8week_strength",
+      "completion_rate": 0.25,
+      "total_starts": 456,
+      "total_completions": 114,
+      "average_days_to_complete": 62
+    },
+    {
+      "challenge_id": "14day_flexibility",
+      "completion_rate": 0.70,
+      "total_starts": 678,
+      "total_completions": 475,
+      "average_days_to_complete": 16
+    }
+  ],
+  "path_stats": [
+    {
+      "path_id": "3day_welcome",
+      "completion_rate": 0.85,
+      "total_starts": 5200,
+      "total_completions": 4420,
+      "average_days_to_complete": 4
+    },
+    {
+      "path_id": "5day_sleep_reset",
+      "completion_rate": 0.65,
+      "total_starts": 1890,
+      "total_completions": 1229,
+      "average_days_to_complete": 7
+    }
+  ],
+  "last_updated": "2025-12-12T00:00:00Z"
+}

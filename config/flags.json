@@ -58,8 +58,9 @@
     }
   },
   "remote_content": {
-    "enabled": false,
-    "base_url": "https://mrpolanco.github.io/stagewell-config/content",
+    "enabled": true,
+    "base_url": "https://mrpolanco.github.io/stagewell-config/content/",
+    "stats_url": "stats.json",
     "promotions": [],
     "paths": [],
     "challenges": []
