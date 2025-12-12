@@ -1,32 +1,88 @@
 {
   "challenge_stats": [
     {
-      "challenge_id": "7day_movement",
+      "challenge_id": "movement_7day",
       "completion_rate": 0.80,
       "total_starts": 1420,
       "total_completions": 1136,
       "average_days_to_complete": 8
     },
     {
-      "challenge_id": "30_morning_walks",
+      "challenge_id": "morning_walks_30",
       "completion_rate": 0.45,
       "total_starts": 890,
       "total_completions": 401,
       "average_days_to_complete": 35
     },
     {
-      "challenge_id": "8week_strength",
+      "challenge_id": "strength_training_8week",
       "completion_rate": 0.25,
       "total_starts": 456,
       "total_completions": 114,
-      "average_days_to_complete": 62
+      "average_days_to_complete": 64
     },
     {
-      "challenge_id": "14day_flexibility",
+      "challenge_id": "stretching_14day",
       "completion_rate": 0.70,
       "total_starts": 678,
       "total_completions": 475,
       "average_days_to_complete": 16
+    },
+    {
+      "challenge_id": "steps_10k_21day",
+      "completion_rate": 0.50,
+      "total_starts": 520,
+      "total_completions": 260,
+      "average_days_to_complete": 24
+    },
+    {
+      "challenge_id": "sleep_schedule_14day",
+      "completion_rate": 0.65,
+      "total_starts": 845,
+      "total_completions": 549,
+      "average_days_to_complete": 16
+    },
+    {
+      "challenge_id": "meditation_21day",
+      "completion_rate": 0.63,
+      "total_starts": 1250,
+      "total_completions": 788,
+      "average_days_to_complete": 24
+    },
+    {
+      "challenge_id": "gratitude_30day",
+      "completion_rate": 0.58,
+      "total_starts": 980,
+      "total_completions": 568,
+      "average_days_to_complete": 35
+    },
+    {
+      "challenge_id": "breathing_7day",
+      "completion_rate": 0.83,
+      "total_starts": 1650,
+      "total_completions": 1370,
+      "average_days_to_complete": 8
+    },
+    {
+      "challenge_id": "journal_streak_30",
+      "completion_rate": 0.52,
+      "total_starts": 720,
+      "total_completions": 374,
+      "average_days_to_complete": 35
+    },
+    {
+      "challenge_id": "hydration_30day",
+      "completion_rate": 0.55,
+      "total_starts": 1100,
+      "total_completions": 605,
+      "average_days_to_complete": 35
+    },
+    {
+      "challenge_id": "digital_detox_weekend",
+      "completion_rate": 0.72,
+      "total_starts": 340,
+      "total_completions": 245,
+      "average_days_to_complete": 3
     }
   ],
   "path_stats": [

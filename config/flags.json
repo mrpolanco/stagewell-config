@@ -32,34 +32,18 @@
   "experiments": {
     "onboarding_flow": {
       "enabled": false,
-      "variants": [
-        "control",
-        "short",
-        "gamified"
-      ],
-      "distribution": [
-        34,
-        33,
-        33
-      ]
+      "variants": ["control", "short", "gamified"],
+      "distribution": [34, 33, 33]
     },
     "home_layout": {
       "enabled": false,
-      "variants": [
-        "ring_focus",
-        "list_view",
-        "cards"
-      ],
-      "distribution": [
-        50,
-        25,
-        25
-      ]
+      "variants": ["ring_focus", "list_view", "cards"],
+      "distribution": [50, 25, 25]
     }
   },
   "remote_content": {
     "enabled": true,
-    "base_url": "https://mrpolanco.github.io/stagewell-config/content/",
+    "base_url": "https://mrpolanco.github.io/stagewell-config/config/",
     "stats_url": "stats.json",
     "promotions": [],
     "paths": [],
