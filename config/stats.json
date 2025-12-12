@@ -2,7 +2,7 @@
   "challenge_stats": [
     {
       "challenge_id": "movement_7day",
-      "completion_rate": 0.80,
+      "completion_rate": 0.8,
       "total_starts": 1420,
       "total_completions": 1136,
       "average_days_to_complete": 8
@@ -23,14 +23,14 @@
     },
     {
       "challenge_id": "stretching_14day",
-      "completion_rate": 0.70,
+      "completion_rate": 0.7,
       "total_starts": 678,
       "total_completions": 475,
       "average_days_to_complete": 16
     },
     {
       "challenge_id": "steps_10k_21day",
-      "completion_rate": 0.50,
+      "completion_rate": 0.5,
       "total_starts": 520,
       "total_completions": 260,
       "average_days_to_complete": 24
@@ -85,21 +85,6 @@
       "average_days_to_complete": 3
     }
   ],
-  "path_stats": [
-    {
-      "path_id": "3day_welcome",
-      "completion_rate": 0.85,
-      "total_starts": 5200,
-      "total_completions": 4420,
-      "average_days_to_complete": 4
-    },
-    {
-      "path_id": "5day_sleep_reset",
-      "completion_rate": 0.65,
-      "total_starts": 1890,
-      "total_completions": 1229,
-      "average_days_to_complete": 7
-    }
-  ],
-  "last_updated": "2025-12-12T00:00:00Z"
+  "path_stats": [],
+  "last_updated": "2025-12-12T20:11:20Z"
 }
