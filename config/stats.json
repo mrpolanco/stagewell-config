@@ -1,9 +1,15 @@
 {
   "challenge_stats": [
     {
-      "challenge_id": "stretching_14day",
+      "challenge_id": "movement_7day",
       "completion_rate": 0.0,
       "total_starts": 1,
+      "total_completions": 0
+    },
+    {
+      "challenge_id": "stretching_14day",
+      "completion_rate": 0.0,
+      "total_starts": 2,
       "total_completions": 0
     }
   ],
@@ -20,5 +26,5 @@
     "min_daily_users_for_community": 10,
     "min_completions_for_challenge": 5
   },
-  "last_updated": "2026-01-06T03:41:45Z"
+  "last_updated": "2026-01-07T03:40:19Z"
 }
