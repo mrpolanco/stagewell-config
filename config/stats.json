@@ -15,7 +15,7 @@
     {
       "challenge_id": "steps_10k_21day",
       "completion_rate": 0.0,
-      "total_starts": 1,
+      "total_starts": 2,
       "total_completions": 0
     },
     {
@@ -110,5 +110,5 @@
     "min_daily_users_for_community": 10,
     "min_completions_for_challenge": 5
   },
-  "last_updated": "2026-02-11T04:30:29Z"
+  "last_updated": "2026-02-12T04:25:34Z"
 }
