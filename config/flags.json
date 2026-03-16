@@ -39,13 +39,112 @@
       "enabled": false,
       "variants": ["ring_focus", "list_view", "cards"],
       "distribution": [50, 25, 25]
+    },
+    "paywall_design": {
+        "enabled": true,
+        "variants": ["control", "minimal", "social_proof"],
+        "distribution": [50, 25, 25]
     }
   },
   "remote_content": {
     "enabled": true,
-    "base_url": "https://mrpolanco.github.io/stagewell-config/config/",
+    "base_url": "https://stagewellai.com/stagewell-config/config/",
     "stats_url": "stats.json",
-    "promotions": [],
+    "promotions": [
+      {
+        "id": "welcome-path-new-users",
+        "type": "card",
+        "title": "Start Your Journey! 🌟",
+        "subtitle": "New here? Our 3-day Welcome Path teaches you everything you need to thrive with StagewellAI",
+        "imageURL": null,
+        "action": {
+          "type": "path",
+          "destination": "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6"
+        },
+        "backgroundColor": "#FFD700",
+        "textColor": "#1a1a1a",
+        "availableFrom": null,
+        "availableUntil": null,
+        "placement": ["home_top"],
+        "dismissible": true,
+        "priority": 200,
+        "linkedPathId": "a1b2c3d4-e5f6-47a8-b9c0-d1e2f3a4b5c6",
+        "minDaysSinceFirstLaunch": 1,
+        "showOnlyIfNoActivePaths": true,
+        "targetStages": null,
+        "targetCategories": null
+      },
+      {
+        "id": "sleep-reset-physiological",
+        "type": "banner",
+        "title": "Struggling with Sleep?",
+        "subtitle": "Our 5-Day Sleep Reset path can help you rest better",
+        "imageURL": null,
+        "action": {
+          "type": "path",
+          "destination": "550e8400-e29b-41d4-a716-446655440002"
+        },
+        "backgroundColor": "#5B2C6F",
+        "textColor": "#ffffff",
+        "availableFrom": null,
+        "availableUntil": null,
+        "placement": ["home_top", "paths_library"],
+        "dismissible": true,
+        "priority": 80,
+        "linkedPathId": "550e8400-e29b-41d4-a716-446655440002",
+        "minDaysSinceFirstLaunch": 1,
+        "showOnlyIfNoActivePaths": true,
+        "targetStages": ["physiological"],
+        "targetCategories": ["sleep"]
+      },
+      {
+        "id": "anxiety-relief-safety",
+        "type": "banner",
+        "title": "Finding Calm in Chaos",
+        "subtitle": "Our 21-Day Anxiety Relief path offers proven techniques",
+        "imageURL": null,
+        "action": {
+          "type": "path",
+          "destination": "1dbc2f7d-e7df-462f-a1c8-1e856c841315"
+        },
+        "backgroundColor": "#1ABC9C",
+        "textColor": "#ffffff",
+        "availableFrom": null,
+        "availableUntil": null,
+        "placement": ["home_top", "paths_library"],
+        "dismissible": true,
+        "priority": 80,
+        "linkedPathId": "1dbc2f7d-e7df-462f-a1c8-1e856c841315",
+        "minDaysSinceFirstLaunch": 1,
+        "showOnlyIfNoActivePaths": true,
+        "targetStages": ["safety"],
+        "targetCategories": ["anxiety", "stress"]
+      },
+      {
+        "id": "new-year-fresh-start-2025",
+        "type": "card",
+        "title": "Start Fresh in 2025! ✨",
+        "subtitle": "Join our 30-Day New Year Fresh Start path and build lasting change, not fleeting resolutions",
+        "imageURL": null,
+        "action": {
+          "type": "path",
+          "destination": "1a2b3c4d-5e6f-5a7b-8c9d-0e1f2a3b4c5d"
+        },
+        "backgroundColor": "#5DADE2",
+        "textColor": "#ffffff",
+        "availableFrom": "2024-12-25",
+        "availableUntil": "2025-02-14",
+        "placement": ["home_top", "paths_library"],
+        "dismissible": true,
+        "priority": 100,
+        "linkedPathId": "1a2b3c4d-5e6f-5a7b-8c9d-0e1f2a3b4c5d",
+        "minHoursSinceFirstLaunch": 6,
+        "showOnlyIfNoActivePaths": null,
+        "targetStages": null,
+        "targetCategories": null,
+        "scheduleNotification": true
+      }
+    ],
     "paths": [],
     "challenges": []
   }
