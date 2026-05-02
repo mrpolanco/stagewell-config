@@ -1,15 +1,15 @@
 {
   "challenge_stats": [
     {
-      "challenge_id": "movement_7day",
+      "challenge_id": "steps_10k_21day",
       "completion_rate": 0.0,
       "total_starts": 1,
       "total_completions": 0
     },
     {
-      "challenge_id": "steps_10k_21day",
+      "challenge_id": "movement_7day",
       "completion_rate": 0.0,
-      "total_starts": 2,
+      "total_starts": 1,
       "total_completions": 0
     },
     {
@@ -110,5 +110,5 @@
     "min_daily_users_for_community": 10,
     "min_completions_for_challenge": 5
   },
-  "last_updated": "2026-05-01T05:42:30Z"
+  "last_updated": "2026-05-02T05:12:09Z"
 }
