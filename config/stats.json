@@ -1,102 +1,5 @@
 {
-  "challenge_stats": [
-    {
-      "challenge_id": "steps_10k_21day",
-      "completion_rate": 0.0,
-      "total_starts": 1,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "movement_7day",
-      "completion_rate": 0.0,
-      "total_starts": 1,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "sleep_schedule_14day",
-      "completion_rate": 0.0,
-      "total_starts": 2,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "evening_winddown_21",
-      "completion_rate": 0.0,
-      "total_starts": 2,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "power_naps_7day",
-      "completion_rate": 0.0,
-      "total_starts": 1,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "hydration_30day",
-      "completion_rate": 0.0,
-      "total_starts": 1,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "meal_prep_4week",
-      "completion_rate": 0.0,
-      "total_starts": 1,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "no_sugar_14day",
-      "completion_rate": 0.0,
-      "total_starts": 1,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "meditation_21day",
-      "completion_rate": 0.0,
-      "total_starts": 1,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "mindful_eating_14",
-      "completion_rate": 0.0,
-      "total_starts": 1,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "gratitude_30day",
-      "completion_rate": 0.0,
-      "total_starts": 1,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "gratitude_letters_7",
-      "completion_rate": 0.0,
-      "total_starts": 3,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "journal_streak_30",
-      "completion_rate": 0.0,
-      "total_starts": 1,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "morning_pages_14",
-      "completion_rate": 0.0,
-      "total_starts": 2,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "evening_reflection_21",
-      "completion_rate": 0.0,
-      "total_starts": 1,
-      "total_completions": 0
-    },
-    {
-      "challenge_id": "stretching_14day",
-      "completion_rate": 0.0,
-      "total_starts": 1,
-      "total_completions": 0
-    }
-  ],
+  "challenge_stats": [],
   "path_stats": null,
   "tool_stats": null,
   "tool_category_stats": null,
@@ -110,5 +13,5 @@
     "min_daily_users_for_community": 10,
     "min_completions_for_challenge": 5
   },
-  "last_updated": "2026-05-12T05:38:55Z"
+  "last_updated": "2026-05-13T05:49:41Z"
 }
